@@ -77,6 +77,22 @@ Simple-Quora-Blog/
 | Edit post | ✅ Current | Updates post content using `PATCH` |
 | Delete post | ✅ Current | Removes post using `DELETE` |
 
+### 🌊 Flow diagram
+
+```mermaid
+flowchart TD
+    A[User opens /posts] --> B[View all posts]
+    C[User clicks create] --> D[Open create form]
+    D --> E[Submit new post]
+    E --> B
+    F[User opens a post] --> G[View post details]
+    H[User clicks edit] --> I[Open edit form]
+    I --> J[Update post]
+    J --> B
+    K[User deletes a post] --> L[Remove post]
+    L --> B
+```
+
 ## 🧰 Tech stack
 
 - **Runtime:** Node.js
