@@ -25,9 +25,6 @@
   <a href="#-available-scripts"><img src="https://img.shields.io/badge/RUN-SCRIPTS-A855F7?style=for-the-badge" alt="Scripts" /></a>
 </p>
 
-## simple-quora-blog — README
-
-Basic CRUD blog project that mimics a minimal Quora posting flow with server-rendered pages.
 
 ## Table of Contents
 
